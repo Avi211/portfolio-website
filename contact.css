@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+   background: linear-gradient(to right, #c26c6c, #701111);
+    color: #fff;
+  }
+  
+  .contact-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .contact-section h1 span {
+    color: #00f0ff;
+  }
+  
+  .contact-form {
+    max-width: 800px;
+    margin: auto;
+    background-color: transparent;
+  }
+  
+  .input-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .input-row input,
+  textarea {
+    flex: 1;
+    min-width: 250px;
+    padding: 12px;
+    background-color: #1e2d3d;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  textarea {
+    width: 100%;
+    resize: none;
+  }
+  
+  .button-container {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  button[type="submit"] {
+    background-color: #00f0ff;
+    color: #000;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 0 15px #00f0ff;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #00c8dd;
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 600px) {
+    .input-row {
+      flex-direction: column;
+    }
+  
+    .input-row input {
+      width: 100%;
+    }
+  }
