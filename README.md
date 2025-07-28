@@ -3,3 +3,5 @@ Developed a personal portfolio website using HTML and CSS to professionally show
 The design was clean and responsive, ensuring a seamless user experience across various devices and screen sizes.
 I demonstrated strong front-end development skills by creating a visually appealing and well-structured layout that enhances my professional online presence.
 Additionally, I implemented effective navigation and UI elements to improve user interaction and accessibility for potential clients and employers.
+
+![Uploading Screenshot_28-7-2025_8569_127.0.0.1.jpeg…]()
